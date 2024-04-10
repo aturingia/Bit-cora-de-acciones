@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#actionForm {
+    margin-bottom: 20px;
+}
+
+#actionForm input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#actionTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#actionTable th, #actionTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#actionTable th {
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;  
+}
+
+.header {
+  text-align: center;
+}
+
+.action__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.export__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+/* responsive */

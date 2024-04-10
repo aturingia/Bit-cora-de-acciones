@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora de Acciones</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
+</head>
+<body>
+  
+  <div class="container">
+    
+    <header class="header">
+      <h1>Bitácora de Acciones</h1>
+    </header>
+    
+    <div class="action__container">
+      
+      <div id="actionForm">
+        <input type="text" id="actionInput" placeholder="Ingrese una acción">
+        <button onclick="addAction()">Agregar Acción</button>
+      </div>
+      
+      <table id="actionTable">
+        <thead>
+            <tr>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody id="actionList">
+        </tbody>
+      </table>
+      
+    </div>
+    
+    <div class="export__container">
+      <button onclick="exportToExcel()">Exportar a Excel</button>
+      <div id="actionCount"></div>
+    </div>
+    
+  </div>
+    <!--<script src="script.js"></script>-->
+</body>
+</html>
